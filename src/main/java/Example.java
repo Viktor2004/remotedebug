@@ -4,9 +4,6 @@ public class Example {
         while (true) {
             System.out.println(value);
             value++;
-            value++;
-            value++;
-            value++;
             value = increaseValue(value);
             Thread.sleep(4000);
         }
